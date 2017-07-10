@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kong a Personal Portfolio Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<title>Fernando Jinzenji - GitHub Personal Page</title>
 	<!--fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -46,7 +46,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<script src="js/classie.js"></script>
 			<!--top-nav---->
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+				<a href="index.html"><!--<img src="images/logo.png" alt=""/>--></a>
 			</div>
 			<div class="top-nav">
 				<div class="nav-icon">
@@ -59,11 +59,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="menu_box_list">
 									<ul>
 										<li><a class="scroll" href="#home"><span>home</span></a></li>
-										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#about"><span>summary</span></a></li>
+                                        <li><a class="scroll" href="#workxp"><span>experience</span></a></li>
 										<li><a class="scroll" href="#services"><span>services</span></a></li>
 										<li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
-										<li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
-										<li><a class="scroll" href="#blog"><span>blog</span></a></li>
 										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
 										<div class="clearfix"> </div>
 									</ul>
@@ -105,7 +104,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<img src="images/1.png" alt=""/>
 			</div>
 			<div class="banner-right">
-				<h1>FERNANDO JINZENJI</h1>
+				<h1>FERNANDO</h1>
+                <h1>JINZENJI</h1>
 				<div class="border"></div>
 				<h2>iOS Developer</h2>
 				<a href="https://www.dropbox.com/s/bouts46chgqrubh/Fernando%20Jinzenji%20-%20Resume.pdf?dl=0">DOWNLOAD MY RESUME</a>
@@ -124,7 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<ul>
 			<!--<li><a class="fb" href="#"></a></li>-->
 			<!--<li><a class="twit" href="#"></a></li>-->
-			<li><a class="in" href="linkedin.com/in/fernandojinz"></a></li>
+			<li><a class="in" href="https://www.linkedin.com/in/fernandojinz/"></a></li>
 			<!--<li><a class="drib" href="#"></a></li>-->
 			<!--<li><a class="goog" href="#"></a></li>-->
 			<!--<li><a class="pin" href="#"></a></li>-->
@@ -141,27 +141,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="skill-grids">
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-1"></div>
-						<p>Photoshop</p>
+						<p>Swift</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-2"></div>
-						<p>Illustrator</p>
+						<p>Objective-C</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
-						<p>Photography</p>
+						<p>SQL Server</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-4"></div>
-						<p>Html 5 / CSS 3</p>
+						<p>Javascript</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-5"></div>
-						<p>C4D</p>
+                        <p>C#</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-6"></div>
-						<p>After Effect</p>
+						<p>asp.net</p>
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
@@ -169,9 +169,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								var colors = [
 										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
 									];
+                                    
 								for (var i = 1; i <= 7; i++) {
-									var child = document.getElementById('circles-' + i),
-										percentage = 30 + (i * 10);
+                                    
+                                    if(i == 1 || i == 2 || i == 3) {
+                                        var child = document.getElementById('circles-' + i),
+                                        percentage = 60;
+                                    }
+                                    else {
+                                        var child = document.getElementById('circles-' + i),
+										percentage = 40;
+                                    }
 										
 									Circles.create({
 										id:         child.id,
@@ -199,44 +207,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
 		<div class="edu-grids">
 			<div class="col-md-4 edu-grid">
-				<p>2012 - 2013</p><span>Graduated</span>
+				<p>2017 - 2017</p><span>Graduated</span>
 				<img src="images/arrow.png" alt=""/>
 				<div class="edu-border">
 					<div class="edu-grid-master">
-						<h3>MASTER DEGREE OF COMPUTER SCIENCE</h3>
-						<h4>Oxford University</h4>
+						<h3>IOS BOOTCAMP</h3>
+						<h4>Lighthouse Labs</h4>
 					</div>
 					<div class="edu-grid-info">
-						<h5>This is Photoshop's version Lorem Ipsum. 
-						Well, the way they make shows is, they make one show.</h5>
+						<h5>objective-c and swift languages, using third-party frameworks, design patterns, dependency manager, test-drive development, functional programming</h5>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 edu-grid">
-				<p>2012 - 2013</p><span>Graduated</span>
+				<p>2011 - 2013</p><span>Graduated</span>
 				<img src="images/arrow.png" alt=""/>
 				<div class="edu-border">
 					<div class="edu-grid-master">
-						<h3>MASTER DEGREE OF COMPUTER SCIENCE</h3>
-						<h4>Oxford University</h4>
+						<h3>MBA DIGITAL MARKETING MANAGEMENT</h3>
+						<h4>ESPM - Brazil</h4>
 					</div>
 					<div class="edu-grid-info">
-						<h5>This is Photoshop's version Lorem Ipsum. 
-						Well, the way they make shows is, they make one show.</h5>
+						<h5>e-commerce, social media, search marketing, mobile marketing, CRM, costumer behavior</h5>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 edu-grid">
-				<p>2012 - 2013</p><span>Graduated</span>
+				<p>1998 - 2002</p><span>Graduated</span>
 				<img src="images/arrow.png" alt=""/>
 				<div class="edu-border">
 					<div class="edu-grid-master">
-						<h3>MASTER DEGREE OF COMPUTER SCIENCE</h3>
-						<h4>Oxford University</h4>
+						<h3>BACHELOR IN COMPUTER SCIENCES</h3>
+						<h4>Mackenzie University - Brazil</h4>
 					</div>
 					<div class="edu-grid-info">
-						<h5>This is Photoshop's version Lorem Ipsum. 
-						Well, the way they make shows is, they make one show.</h5>
+						<h5>algorithms, object oriented programming, operation systems, data structures, network, databases, artificial intelligence, graphic computing</h5>
 					</div>
 				</div>
 			</div>
@@ -248,7 +253,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--//education-->
 <div class="strip-border"><p></p></div>
 <!--work-->
-<div class="work-experience text-center">
+<div class="work-experience text-center" id="workxp">
 	
 	<div class="container">
 		<div class="work-info">
@@ -258,40 +263,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="work-grids">
 			<div class="col-md-4 w-grid">
 				<div class="work-grid">
-					<h3>2013 - Now</h3>
+					<h3>2015 - 2016</h3>
 					<div class="work-grid-info">
-						<h4>Google</h4>
-						<h5>Visual Designer</h5>
-						<p>Now that there is the Tec-9, a crappy spray gun from South Miami. 
-						This gun is advertised as the most popular gun in American crime. 
-						Do you believe that shit? It actually says that in the little book 
-						that comes with it: the most popular gun in</p>
+						<h4>Volkswagen Financial Services - Brazil</h4>
+						<h5>Project Manager</h5>
+						<p>Responsible for the entire project's life cycle (conception to delivery) using PMI methodology. Ensure accomplishment of scope inside defined schedule and budget. Conduct status report meetings with project team and steering committees with Managing Directors and main stakeholders. Maintain constant communication with involved areas. Manage resources usage.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 w-grid">
 				<div class="work-grid">
-					<h3>2013 - Now</h3>
+					<h3>2013 - 2015</h3>
 					<div class="work-grid-info">
-						<h4>Google</h4>
-						<h5>Visual Designer</h5>
-						<p>Now that there is the Tec-9, a crappy spray gun from South Miami. 
-						This gun is advertised as the most popular gun in American crime. 
-						Do you believe that shit? It actually says that in the little book 
-						that comes with it: the most popular gun in</p>
+						<h4>Novartis Pharmaceuticals - Brazil</h4>
+						<h5>Project Manager</h5>
+						<p>Project manager for delivery of digital marketing solutions. Responsible for manage projects that involve web and/or mobile technologies since the conception of the idea with business users until the operation of live applications. </p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 w-grid">
 				<div class="work-grid">
-					<h3>2013 - Now</h3>
+					<h3>2008 - 2011</h3>
 					<div class="work-grid-info">
-						<h4>Google</h4>
-						<h5>Visual Designer</h5>
-						<p>Now that there is the Tec-9, a crappy spray gun from South Miami. 
-						This gun is advertised as the most popular gun in American crime. 
-						Do you believe that shit? It actually says that in the little book 
-						that comes with it: the most popular gun in</p>
+						<h4>iLang.com - Brazil</h4>
+						<h5>.NET Web Developer</h5>
+						<p>Responsible for developing new features for company's e-learning platform, using a customized agile methodology and Microsoft platform/languages (Visual Studio, C# and asp.net 2.0/3.5). Also used javascript library "mootools" to produce more user responsive applications.</p>
 					</div>
 				</div>
 			</div>
@@ -310,7 +306,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
 		<div class="ser-grids">
-			<div class="col-md-3 ser-grid">
+			<!--div class="col-md-3 ser-grid">
 				<div class="ser-imagea"></div>
 				<h3>Web Design</h3>
 				<p>I'm gonna shoot you in the head
@@ -324,21 +320,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				then and there. Then I'm gonna shoot 
 				that bitch in the kneecaps.</p>
 			</div>
-			<div class="col-md-3 ser-grid">
-				<div class="ser-imagec"></div>
-				<h3>Content Writer</h3>
-				<p>I'm gonna shoot you in the head
-				then and there. Then I'm gonna shoot 
-				that bitch in the kneecaps.</p>
-			</div>
+			-->
 			<div class="col-md-3 ser-grid">
 				<div class="ser-imaged"></div>
-				<h3>Development</h3>
-				<p>I'm gonna shoot you in the head
-				then and there. Then I'm gonna shoot 
-				that bitch in the kneecaps.</p>
+				<h3>iOS Development</h3>
+				<p>Starting my career as a iOS developer, but i believe that my previous background in Project Management and web development can help you improve your business.</p>
 			</div>
-			<div class="clearfix"></div>
+            <div class="col-md-3 ser-grid">
+                <div class="ser-imaged"></div>
+                <h3>SQL Server</h3>
+                <p>I have some skill to tune your database objects (tables, views, stored procedures) and make them perform even better.</p>
+            </div>
+            <div class="clearfix"></div>
 		</div>
 	</div>
 </div>
@@ -348,13 +341,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<h3>PORTFOLIO</h3>
 		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
-		<p>You think water moves fast? You should see ice. It moves like it has a mind. 
-		Like it knows it killed the world once and got a taste for murder. After the avalanche, 
-		it took us a week to climb out. Now, I don't know exactly when we turned on each other, 
-		but I know that seven of us survived the slide and only five made it out. Now we took an 
-		oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, 
-		but it wasn't. Nature is lethal but it doesn't hold a candle to man.</p>
-		<div class="gallery-grids">
+		<p>I have some project in my GitHub account where I can demonstrate a few of my Swift/Objective-C projects. There, you will probably see from basic applications (command-line and standalone
+        apps) to most robust applications, that uses third-party APIs, networking calls and other iOS frameworks, like CoreLocation, MapKit and CoreData. I also demonstrate a dependency manager
+        (CocoaPods) to include Firebase, Realm and SwiftJSON in my projects.</p>
+		<!--<div class="gallery-grids">
 			<div class="top-gallery">
 				<div class="col-md-4 gallery-grid gallery1">
 					<a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
@@ -413,7 +403,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							$(".swipebox").swipebox();
 						});
 					</script>
-		</div>
+		</div>-->
 	</div>
 </div>
 <!--//portfolio-->
@@ -471,237 +461,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--//process-->
 <div class="process-back"></div>
-<!--testimonials-->
-<div class="testimonials" id="testimonial">
-	<div class="container">
-		<h3>TESTIMONIAL</h3>
-		<div class="strip text-center"><img src="images/test.png" alt=" "/></div>
-			<!-- responsiveslides -->
-					<script src="js/responsiveslides.min.js"></script>
-						<script>
-							// You can also use "$(window).load(function() {"
-							$(function () {
-							 // Slideshow 4
-							$("#slider3").responsiveSlides({
-								auto: true,
-								pager: false,
-								nav: true,
-								speed: 500,
-								namespace: "callbacks",
-								before: function () {
-							$('.events').append("<li>before event fired.</li>");
-							},
-							after: function () {
-								$('.events').append("<li>after event fired.</li>");
-								}
-								});
-								});
-						</script>
-			<!-- responsiveslides -->
-			<div  id="top" class="callbacks_container">
-					<ul class="rslides" id="slider3">
-						<li>
-							<div class="test-banner">
-								<img class="quoa" src="images/quo2.png" alt=""/>
-								<div class="test-left">
-									<img src="images/7.png" alt=""/>
-								</div>
-								<div class="test-right">
-									<p>However unreal it may seem, we are connected, 
-									you and I. We're on the same curve, just on opposite ends.</p>
-									<h4>Sam L. J. - Pulp Fiction</h4>
-								</div>
-								<div class="clearfix"></div>
-								<img class="quo" src="images/quo1.png" alt=""/>
-							</div>
-						</li>
-						<li>
-							<div class="test-banner">
-								<img class="quoa" src="images/quo2.png" alt=""/>
-								<div class="test-left">
-									<img src="images/eee.png" alt=""/>
-								</div>
-								<div class="test-right">
-									<p>However unreal it may seem, we are connected, 
-									you and I. We're on the same curve, just on opposite ends.</p>
-									<h4>Sam L. J. - Pulp Fiction</h4>
-								</div>
-								<div class="clearfix"></div>
-								<img class="quo" src="images/quo1.png" alt=""/>
-							</div>
-						</li>
-					</ul>
-			</div>
-			
-	</div>
-</div>
-<!--testimonials-->
-<!--clients-->
-<div class="clients text-center">
-	<div class="container">
-		<h4>Clients</h4>
-		<div class="strip-line"></div>
-		<div class="client-grids">
-			<div class="col-md-4 cl-grid">
-				<div class="client-grid">
-					<img src="images/10.png" alt=""/>
-				</div>
-			</div>
-			<div class="col-md-4 cl-grid">
-				<div class="client-grid">
-					<img src="images/11.png" alt=""/>
-				</div>
-			</div>
-			<div class="col-md-4 cl-grid">
-				<div class="client-grid">
-					<img src="images/12.png" alt=""/>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--clients-->
-<div class="client-back"></div>
-<!--blog-->
-<div class="blog" id="blog">
-	<div class="container">
-		<div class="blog-info text-center">
-			<h3>BLOG</h3>
-			<div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
-		</div>
-		<div class="blog-grids">
-			<div class="col-md-4 blog-text-info">
-				<div class="blog-grid">
-					<a href="single.html"><img src="images/a.jpg" alt=""/></a>
-					<div class="blog-text">
-						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
-						<div class="stripa"></div>
-						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
-						and viruses differently than mine. You don't get sick, I do.</p>
-					</div>
-				
-					<div class="blog-para">
-							<ul>
-								<li><a href="#">3 Comments</a></li>
-								<li><a href="#">8 Share</a></li>
-							</ul>
-					</div>	
-					<div class="blog-pos">
-						<p>5<span>May</span></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 blog-text-info">
-				<div class="blog-grid">
-					<a href="single.html"><img src="images/b.jpg" alt=""/></a>
-					<div class="blog-text">
-						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
-						<div class="stripa"></div>
-						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
-						and viruses differently than mine. You don't get sick, I do.</p>
-					</div>
-				
-					<div class="blog-para">
-							<ul>
-								<li><a href="#">3 Comments</a></li>
-								<li><a href="#">8 Share</a></li>
-							</ul>
-					</div>
-					<div class="blog-pos">
-						<p>5<span>May</span></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 blog-text-info">
-				<div class="blog-grid">
-					<a href="single.html"><img src="images/c.jpg" alt=""/></a>
-					<div class="blog-text">
-						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
-						<div class="stripa"></div>
-						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
-						and viruses differently than mine. You don't get sick, I do.</p>
-					</div>
-				
-					<div class="blog-para">
-							<ul>
-								<li><a href="#">3 Comments</a></li>
-								<li><a href="#">8 Share</a></li>
-							</ul>
-					</div>
-					<div class="blog-pos">
-						<p>5<span>May</span></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 blog-text-info">
-				<div class="blog-grid">
-					<a href="single.html"><img src="images/a.jpg" alt=""/></a>
-					<div class="blog-text">
-						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
-						<div class="stripa"></div>
-						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
-						and viruses differently than mine. You don't get sick, I do.</p>
-					</div>
-				
-					<div class="blog-para">
-							<ul>
-								<li><a href="#">3 Comments</a></li>
-								<li><a href="#">8 Share</a></li>
-							</ul>
-					</div>
-					<div class="blog-pos">
-						<p>5<span>May</span></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 blog-text-info">
-				<div class="blog-grid">
-					<a href="single.html"><img src="images/b.jpg" alt=""/></a>
-					<div class="blog-text">
-						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
-						<div class="stripa"></div>
-						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
-						and viruses differently than mine. You don't get sick, I do.</p>
-					</div>
-				
-					<div class="blog-para">
-							<ul>
-								<li><a href="#">3 Comments</a></li>
-								<li><a href="#">8 Share</a></li>
-							</ul>
-					</div>
-					<div class="blog-pos">
-						<p>5<span>May</span></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 blog-text-info">
-				<div class="blog-grid">
-					<a href="single.html"><img src="images/c.jpg" alt=""/></a>
-					<div class="blog-text">
-						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
-						<div class="stripa"></div>
-						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
-						and viruses differently than mine. You don't get sick, I do.</p>
-					</div>
-				
-					<div class="blog-para">
-							<ul>
-								<li><a href="#">3 Comments</a></li>
-								<li><a href="#">8 Share</a></li>
-							</ul>
-					</div>
-					<div class="blog-pos">
-						<p>5<span>May</span></p>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//blog-->
+
 <div class="contact-back"></div>
 <!--contact-->
 <div class="contact" id="contact">
@@ -715,24 +475,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h3>Say Hi to Me</h3>
 				<div class="stripb"></div>
 				<ul>
-					<li>Orchard Park, Long Bennington, </li>
-					<li>Newark, Lincolnshire </li>
-					<li>NG23 5DQ, United Kingdom</li>
-					<li>9876543210</li>
-					<li><a href="mailto:info@example.com">Sebastian@mail.com</a></li>
-					<li><a href="#">www.sebasti.an</a></li>
+					<li>(604)880-3750</li>
+					<li><a href="mailto:fernandoj@me.com">fernandoj@me.com</a></li>
+					<li><a href="https://fernandojinzenji.github.io">https://fernandojinzenji.github.io</a></li>
 				</ul>
 			</div>
-			<div class="col-md-7 contact-right">
-				<h3>Drop Me A Line</h3>
-				<div class="stripb"></div>
-				<form>
-					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
-					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
-					<input type="submit" value="SEND">
-				</form>
-			</div>
+			
 			<div class="clearfix"></div>
 		</div>
 	</div>
@@ -743,7 +491,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="resume text-center">
 	<div class="container">
 		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
-		<div class="down"><a href="#">Download My Resume</a></div>
+		<div class="down"><a href="https://www.dropbox.com/s/bouts46chgqrubh/Fernando%20Jinzenji%20-%20Resume.pdf?dl=0">Download My Resume</a></div>
 	</div>
 </div>
 <!--//resume-->
